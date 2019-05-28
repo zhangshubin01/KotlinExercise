@@ -2,6 +2,8 @@ package com.example.kotlinexercise
 
 import com.example.kotlinexercise.basetype.BaseTypeActivity
 import com.example.kotlinexercise.basetype.BaseTypeEXercise
+import com.example.kotlinexercise.kotlincallJava.CallJava
+import com.example.kotlinexercise.kotlincallJava.Car
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -17,6 +19,15 @@ class ExampleUnitTest {
 //        assertEquals(4, 2 + 2)
 //        BaseTypeActivity.gg()
 
-        BaseTypeEXercise.gg()
+        BaseTypeEXercise.str()
+    }
+
+    @Test
+    fun CallJaves(){
+
+
+
+     CallJava.demo6()
+
     }
 }
