@@ -12,14 +12,14 @@ public class CallKotlin {
      * 调用属性
      */
     public final void demo1() {
-      new Animal().getCar1();
-      String str = new Animal().car1;
+        new Animal().getCar1();
+        String str = new Animal().car1;
 
-     int i2 =  DemoUtils.MAX;
+        int i2 = DemoUtils.MAX;
 
-    int i =   Animal.VERSION;
+        int i = Animal.VERSION;
 
-    Dome3.car5 = new Animal();
+        Dome3.car5 = new Animal();
 
 
 //      Animal.car1;
@@ -43,9 +43,9 @@ public class CallKotlin {
     public final void demo3() {
         //
 //          new DomeKt().bar();
-       Animal.callStatic();
+        Animal.callStatic();
 
-       Dome3.callStatic();
+        Dome3.callStatic();
 
 
     }
@@ -57,9 +57,11 @@ public class CallKotlin {
         //
 //          new DomeKt().bar();
 
-           new Animal().gitList("");
-            new Animal().gitList("",0);
-            new Animal().gitList("",0,"");
+//        new DemoUtils().bar();
+
+        new Animal().gitList("");
+        new Animal().gitList("", 0);
+        new Animal().gitList("", 0, "");
 
 
         Dome3.callStatic();
@@ -72,7 +74,7 @@ public class CallKotlin {
      */
     public final void demo5() {
 
-       try {
+        try {
             new Animal().demo();
         } catch (IOException e) {
             e.printStackTrace();
@@ -80,7 +82,6 @@ public class CallKotlin {
 
 
     }
-
 
 
 }

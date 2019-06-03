@@ -5,6 +5,7 @@ package com.example.kotlinexercise.oodm
  */
 open class Banana(age :Int) :Fruit(age), Eat {
 
+
     /**
      * 通过override标记实现重写
      * override重写的函数也是open的，
@@ -19,6 +20,10 @@ open class Banana(age :Int) :Fruit(age), Eat {
 //        super<Fruit>.color();
 
         super<Eat>.color();
+    }
+
+    fun Cad(){
+
     }
 
 

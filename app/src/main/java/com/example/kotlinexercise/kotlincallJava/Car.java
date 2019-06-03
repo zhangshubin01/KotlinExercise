@@ -25,6 +25,9 @@ public class Car {
         return car1;
     }
 
+    private String Car;
+
+
     public void setCar1(String car1) {
         this.car1 = car1;
     }
@@ -100,9 +103,11 @@ public class Car {
     public Object get7(){
         return  new Object();
     }
+
     public static Object get8(){
         return  new Car();
     }
+
 
     public  void  get9() {
 

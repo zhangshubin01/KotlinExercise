@@ -16,6 +16,7 @@ abstract class Fruit (age: Int){
     var age = age
     var color:String = ""
 
+
     /**
      *  二级构造函数必须要使用constructor
      *

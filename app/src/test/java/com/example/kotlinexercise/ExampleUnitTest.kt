@@ -1,6 +1,7 @@
 package com.example.kotlinexercise
 
 
+import com.example.kotlinexercise.kotlincallJava.CallJava
 import com.example.kotlinexercise.oodm.Banana
 import org.junit.Test
 
@@ -22,9 +23,6 @@ class ExampleUnitTest {
     @Test
     fun CallJaves(){
 
-
-    var age = 10
-    Banana(age).color()
-
+       CallJava().demo5()
     }
 }

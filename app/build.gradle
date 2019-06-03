@@ -1,7 +1,19 @@
 apply plugin: 'com.android.application'
 
 apply plugin: 'kotlin-android'
-
+/**
+ * Kotlin Android Extensions是另一个Kotlin团队研发的插件，让我们用更少的代码来开发程序 。
+ * 当前仅仅包括了view的绑定。该插件自动创建了很多的属性来让我们直接访问XML中的view。
+ * 因此不需要你在布局中去找到这些views。 我们使用的View，其名字就是来自对应view的id，
+ * 所以我们取id的时候要十分小心，这将会是我们类中非常重要的一部分。
+ * 这些控件的类型也是来自XML中的，所以我们不需要去进行额外的类型转换。
+ * Kotlin Android Extensions使用不需要依赖其它额外的库。
+ * 它仅仅由插件组层，用于生成工作所需的代码，只需依赖于Kotlin的标准库。
+ * Kotlin Android Extensions工作原理是： 该插件会代替任何属性调用函数，比如获取到view并具有缓存功能，
+ * 以免每次属性被调用都会去重新获取这个view。 这个缓存装置只会在Activity或者Fragment中才有效。如果它是在一个扩展函数中增加的
+ *
+ *
+ */
 apply plugin: 'kotlin-android-extensions'
 
 android {
