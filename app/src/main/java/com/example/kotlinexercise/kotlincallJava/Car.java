@@ -8,6 +8,8 @@ import java.util.List;
 
 public class Car {
 
+
+
     private String car1;
 
     private int car2;
@@ -74,35 +76,35 @@ public class Car {
 
     }
 
-    public void removeIndices(int[] indices) {
+    public void get4(int[] indices) {
         for (int in : indices) {
             System.out.println("传递数组" + in);
         }
 
     }
 
-    public void removeIndices(List<Integer> indices) {
+    public void get5(List<Integer> indices) {
         for (int in : indices) {
             System.out.println("传递数组" + in);
         }
 
     }
 
-    public void removeIndicesVarArg(int... indices) {
+    public void get6(int... indices) {
 
         for (int in : indices) {
             System.out.println("传递数组" + in);
         }
     }
 
-    public Object get4(){
+    public Object get7(){
         return  new Object();
     }
-    public static Object get5(){
+    public static Object get8(){
         return  new Car();
     }
 
-    public  void  get6() {
+    public  void  get9() {
 
     }
 }
