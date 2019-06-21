@@ -24,6 +24,8 @@ class CallJava {
         print("\n" + Car().isCar4)
         print("\n" + Car.car5)
 
+
+
     }
 
     /**
@@ -91,7 +93,6 @@ class CallJava {
 
         val vs = Car.get8() as Car
         vs.get1()
-
 
         val vss = Car.get8()
         (vss as Car).get1()

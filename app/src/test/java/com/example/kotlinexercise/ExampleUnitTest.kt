@@ -3,6 +3,7 @@ package com.example.kotlinexercise
 
 import com.example.kotlinexercise.kotlincallJava.CallJava
 import com.example.kotlinexercise.oodm.Banana
+import com.example.kotlinexercise.oodm.Car
 import org.junit.Test
 
 
@@ -23,6 +24,8 @@ class ExampleUnitTest {
     @Test
     fun CallJaves(){
 
-       CallJava().demo5()
+//        Car("主构造器 传参").getList()
+
+         print(Car.ARG_PARAM1)
     }
 }

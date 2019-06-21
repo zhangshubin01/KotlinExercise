@@ -19,9 +19,9 @@ public class CallKotlin {
 
         int i = Animal.VERSION;
 
-        Dome3.car5 = new Animal();
+//        Dome3.car5 = new Animal();
 
-
+        new Animal().is();
 //      Animal.car1;
     }
 
@@ -64,7 +64,7 @@ public class CallKotlin {
         new Animal().gitList("", 0, "");
 
 
-        Dome3.callStatic();
+//        Dome3.callStatic();
 
 
     }

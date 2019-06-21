@@ -9,7 +9,6 @@ import java.util.List;
 public class Car {
 
 
-
     private String car1;
 
     private int car2;
@@ -100,16 +99,16 @@ public class Car {
         }
     }
 
-    public Object get7(){
-        return  new Object();
+    public Object get7() {
+        return new Object();
     }
 
-    public static Object get8(){
-        return  new Car();
+    public static Object get8() {
+        return new Car();
     }
 
 
-    public  void  get9() {
+    public void get9() {
 
     }
 }

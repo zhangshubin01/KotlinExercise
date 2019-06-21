@@ -10,6 +10,9 @@ package com.example.kotlinexercise.oodm
    主构造函数包含在类头中 需要init方法实现才行 而二级构造函数在函数体内实现操作
    通过constructor关键字在类头中实现主构造函数 主构造函数可以直接声明属性
  *
+ * Kotlin 引入了初始化代码块，
+ * 用 关键字init声明，
+ * 需要在主构造函数中初始化的操作可以放到初始化代码块中
  *
  */
 abstract class Fruit (age: Int){

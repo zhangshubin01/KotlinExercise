@@ -2,6 +2,7 @@
 
 package com.example.kotlinexercise.javaCallkotlin
 
+import java.io.FileInputStream
 import java.io.IOException
 import java.security.Provider
 
@@ -29,6 +30,8 @@ class Animal{
 
     /**
      * （在类中以及在顶层）以 const 声明的属性在 Java 中会成为静态字段
+     *
+     * 相当于 java 内部类
      */
     companion object {
         const val VERSION = 9
@@ -85,11 +88,11 @@ class Animal{
     @JvmOverloads fun gitList(label: String, lineWidth: Int = 1, color: String = "red") {  }
 
     /**
-     * 因为 writeToFile() 没有声明 IOException，我们从 Java 编译器得到了一个报错消息。 为了解决这个问题，要在 Kotlin 中使用 @Throws 注解。
+     * 因为  没有声明 IOException，我们从 Java 编译器得到了一个报错消息。 为了解决这个问题，要在 Kotlin 中使用 @Throws 注解。
      */
     @Throws(IOException::class)
     fun demo() {
-        /*...*/
-        throw IOException()
+      var files =  FileInputStream("a.txt")
+
     }
 }
